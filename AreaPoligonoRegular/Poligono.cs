@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace ConsoleApp.AreaPoligonoRegular
 {
-    internal class Triangulo : IFigura
+    internal class Poligono : IFigura
     {
-        public Triangulo( int numeroLados, double longitudLados)
-        {   
-            NumeroLados = numeroLados;  
+        public Poligono(int numeroLados, double longitudLados)
+        {
+            NumeroLados = numeroLados;
             LongitudLados = longitudLados;
         }
-        
+
         public int NumeroLados { get; }
         public double LongitudLados { get; }
     }
